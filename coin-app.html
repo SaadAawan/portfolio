@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Portfolio Details - Saad Aawan Bootstrap Template</title>
+  <title>Portfolio Details - Saad Aawan</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -15,7 +15,8 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -56,7 +57,8 @@
           <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                    class="bi bi-chevron-down toggle-dropdown"></i></a>
                 <ul>
                   <li><a href="#">Deep Dropdown 1</a></li>
                   <li><a href="#">Deep Dropdown 2</a></li>
@@ -108,7 +110,7 @@
                   "loop": true,
                   "speed": 600,
                   "autoplay": {
-                    "delay": 5000
+                    "delay": 2000
                   },
                   "slidesPerView": "auto",
                   "pagination": {
@@ -122,34 +124,16 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/FoodApp-01.jpg" alt="">
+                  <img src="assets/img/portfolio/CoinApp-01.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/FoodApp-02.jpg" alt="">
+                  <img src="assets/img/portfolio/CoinApp-02.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/FoodApp-03.jpg" alt="">
+                  <img src="assets/img/portfolio/CoinApp-03.png" alt="">
                 </div>
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/FoodApp-04.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/FoodApp-05.jpg" alt="">
-                </div>
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/FoodApp-06.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/product-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/branding-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/books-1.jpg" alt="">
+                  <img src="assets/img/portfolio/CoinApp-04.png" alt="">
                 </div>
 
               </div>
@@ -159,22 +143,24 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-              <h3>Project information</h3>
+              <h3>Coin App</h3>
               <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+                <li><strong>Category</strong>: Crypto currency App</li>
+                <li><strong>Language</strong>: Swift</li>
+                <li><strong>Framework</strong>: SwiftUI</li>
+                <li><strong>Third-Party API</strong>: <a href="#">https://www.coingecko.com/</a></li>
               </ul>
             </div>
             <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-              <h2>Exercitationem repudiandae officiis neque suscipit</h2>
+              <h2>Description:</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+                The Coin App is a self learing project, As I like to work on different projects and improve my skills.
+                This app is built in Swift using SwiftUI and has a list of Crypto currencies which are fetching from Third-Party API <strong><a href="https://www.coingecko.com/">Coin Gecko</a></strong>, The coin list is build using <strong><a href="#"> lazyLoading </a></strong> so optimize to prevent the excess usage of bandwidth,
+                Only certine data will be load at first and when user scorll more data will be load according this technique is used to made application fast and user friendly. In the detail screen user can find coin related data which is also fetching from API also I use <strong><a href="#">Cache</a></strong> technique here on first time load
+                the data will be store on app cache and when user come again to detail screen the API will not fetech same data again and again It will direclty shown cache data which was store on first time for a specfic coin, This technique will save bandwidth alogn make it user friendly and fast responsive also with Asyn / Await and unit testing is added so it will be bug and error free.
               </p>
             </div>
           </div>
-
         </div>
 
       </div>
@@ -187,7 +173,8 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Saad Aawan</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Saad Aawan</strong> <span>All Rights Reserved</span>
+        </p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -207,7 +194,8 @@
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
